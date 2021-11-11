@@ -14,3 +14,14 @@
 #print('Just testing from this point on')
 
 
+lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim')
+print(sorted(lanche))
+for pos, c in enumerate(lanche):
+    print(f'Vou comer {c} na ordem {pos}')
+
+a = (1,2,3)
+b = (4,5,6)
+c = a + b
+print(c)
+c += c
+print(c)
